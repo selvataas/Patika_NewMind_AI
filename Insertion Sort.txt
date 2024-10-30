@@ -1,0 +1,12 @@
+Insertion Sort Aşamaları: Dizi: 22,27,16,2,18,6
+
+1. İlk eleman 22, zaten tek başına sıralı kabul edilir.
+2. 27'yi ekleyip sıralı hale getiriyoruz: 22,27,16,2,18,6
+3. 16'yı ekleyip sıralı hale getiriyoruz: 16,22,27,2,18,6
+4. 2'yi ekleyip sıralı hale getiriyoruz: 2,16,22,27,18,6
+5. 18'i ekleyip sıralı hale getiriyoruz: 2,16,18,22,27,6
+6. 6'yı ekleyip sıralı hale getiriyoruz: 2,6,16,18,22,27
+
+Big-O Gösterimi: Insertion Sort'un en kötü durum (Worst Case) karmaşıklığı: O(n²)
+
+Time Complexity - 18 Sayısı İçin Case Durumu: Dizi sıralandıktan sonra 18 sayısı ortalarda yer aldığı için Average Case kapsamına girer.
